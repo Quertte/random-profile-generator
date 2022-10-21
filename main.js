@@ -1,3 +1,4 @@
 const generateNames = require('./generateNames');
+const writeResults = require('./writeResults');
 
-console.log(generateNames(3));
+writeResults(generateNames());
